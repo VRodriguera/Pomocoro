@@ -1,0 +1,49 @@
+body {
+  background-color: #1e212d;
+  color: #c07300;
+  height: 100vh;
+  font-family: "Roboto mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+};
+
+#root {
+    height: 100vh;
+}
+
+.pomodoro {
+  font-size: 5em;
+}
+
+.message {
+  font-size: 0.6em;
+  min-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+}
+
+.button {
+  /* referencia: https://www.w3bai.com/pt/css/css3_buttons.html */
+  background-color: #c07300;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
