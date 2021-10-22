@@ -21,7 +21,7 @@ intervalos curtos - 5 minutos.
 O projeto foi desenvolvido utilizando ReactJs, CSS3, Hooks e context API, e nele voce ira experienciar o uso de um pomodoro, podendo alem de utilizar o tempo padrão de 25 minutos com intervalos de 5 minutos, personalizar o tempo a seu gosto.
 
 <div align=center>
- <img width=200 src='https://qph.fs.quoracdn.net/main-qimg-91e922a1af6d17737be169ac244987de%27/%3E
+ <img width=200 src='https://qph.fs.quoracdn.net/main-qimg-91e922a1af6d17737be169ac244987de%27/%3E'/>
 </div>
 
 
