@@ -2,10 +2,10 @@ import React, { useState, useRef } from 'react';
 import context from './context';
 
 function Provider({ children }) {
-  const initialTime = 25
-  const breakTime = 5
-  const runningMessage = 'Trabalho, trabalho e trabalho';
-  const breakMessage = 'Aproveite o intervalo, voltamos em:';
+  const [initialTime, setInitialTime] = useState(25)
+  const [breakTime, setBreakTime ] = useState(5)
+  const runningMessage = 'Pomodoro';
+  const breakMessage = 'Intervalo';
   const [time, setTime] = useState(initialTime);
   const [reset, setReset] = useState(false);
   const [start, setStart] = useState(false);
@@ -15,7 +15,9 @@ function Provider({ children }) {
 
   const contextValue = {
     initialTime,
+    setInitialTime,
     breakTime,
+    setBreakTime,
     runningMessage,
     breakMessage,
     time,

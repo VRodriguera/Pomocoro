@@ -18,6 +18,7 @@ body {
 
 .message {
   font-size: 0.6em;
+  text-align: center;
   min-height: 1.3em;
   margin-bottom: 0.5em;
 }
@@ -31,7 +32,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.5em;
 }
 
 .button {
@@ -46,4 +46,41 @@ body {
   font-size: 16px;
   margin-left: 0.5em;
   margin-right: 0.5em;
+}
+
+.buttonPersonalTime {
+  background-color: #c07300;
+  color: white;
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size:22px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+
+.buttonsPersonalTimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.PersonalTime {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.valuePersonalTime {
+  font-size: 30px;
+}
+
+.font {
+  font-size: 20px;
 }
