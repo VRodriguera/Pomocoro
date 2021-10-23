@@ -17,6 +17,7 @@ function ButtonSave() {
     setMessage(runningMessage)
     setBreakTimeState(false)
     setReset(true)
+    new Audio('./click.mp3').play()
   }
 
   return (

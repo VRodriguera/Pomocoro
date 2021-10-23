@@ -11,6 +11,7 @@ function  ButtonPause() {
   const clickPause = () => {
     clearTimeout(timeOut.current)
     setStart(false)
+    new Audio('./click.mp3').play()
   }
 
   return (

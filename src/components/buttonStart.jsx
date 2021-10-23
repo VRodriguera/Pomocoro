@@ -11,6 +11,7 @@ function ButtonStart() {
   const clickStart = () => {
     setStart(true);
     setReset(false);
+    new Audio('./click.mp3').play()
   }
 
   return (

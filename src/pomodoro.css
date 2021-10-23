@@ -46,6 +46,16 @@ body {
   font-size: 16px;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  box-shadow: 0 9px rgb(129, 129, 129);
+  border-radius: 5px;
+}
+
+.button:hover {background-color: #573400}
+
+.button:active {
+  background-color: #573400;
+  box-shadow: 0 5px rgb(66, 66, 66);
+  transform: translateY(4px);
 }
 
 .buttonPersonalTime {

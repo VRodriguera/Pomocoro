@@ -11,6 +11,7 @@ function PomodoroClassic() {
   const click = () => {
     setInitialTime(1500)
     setBreakTime(300)
+    new Audio('./click.mp3').play()
   }
 
   return (
