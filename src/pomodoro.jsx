@@ -7,7 +7,7 @@ import ButtonReset from './components/buttonReset';
 import PersonalInitialTime from './components/personalInitialTime';
 import PersonalBreakTime from './components/personalBreakTime';
 import ButtonSave from './components/buttonSave';
-import ButtonPomodoroClassic from './components/pomodoroClassic';
+import ExtraButtons from './components/extraButtons';
 
 function Pomodoro() {
 
@@ -88,7 +88,7 @@ function Pomodoro() {
       </section>
       <section className='buttonsPersonalTimer'>
       <p className='valuePersonalTime'>Personalizar tempo<i className='font'>(em segundos)</i></p>
-      <ButtonPomodoroClassic />
+      <ExtraButtons />
       <p className='valuePersonalTime'>Pomodoro</p>
       <PersonalInitialTime />
       <p className='valuePersonalTime'>Intervalo</p>
