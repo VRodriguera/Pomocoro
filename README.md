@@ -4,6 +4,8 @@
 
 - [Sobre o Pomodoro](#bookmark_tabs-sobre-o-pomodoro)
 - [Sobre o projeto](#bookmark_tabs-sobre_o_projeto)
+- [Use o Pomodoro](#bookmark_tabs-use-o-pomodoro)
+- [Autor](#bookmark_tabs-autor)
 
 
 ## 📑 Sobre o Pomodoro
@@ -15,14 +17,18 @@ trabalho em intervalos, tradicionalmente de 25 minutos de duração, separados p
 intervalos curtos - 5 minutos.
 
 
-## 📑 Sobre o Projeto
+## 📝 Sobre o Projeto
 
 
-O projeto foi desenvolvido utilizando ReactJs, CSS3, Hooks e context API, e nele voce ira experienciar o uso de um pomodoro, podendo alem de utilizar o tempo padrão de 25 minutos com intervalos de 5 minutos, personalizar o tempo a seu gosto.
+O projeto foi desenvolvido utilizando ReactJs, CSS3, Hooks, context API e Heroku para hospedagem, e nele voce ira experienciar o uso de um pomodoro, podendo alem de utilizar o tempo padrão de 25 minutos com intervalos de 5 minutos, personalizar o tempo a seu gosto.
 
 <div align=center>
  <img width=200 src='https://qph.fs.quoracdn.net/main-qimg-91e922a1af6d17737be169ac244987de'/>
 </div>
+
+## 📌 Use o pomodoro
+
+<a href="https://vrodriguera-pomodoro.herokuapp.com/" target="_blank">Pomodoro</a>
 
 
 ## Autor 
